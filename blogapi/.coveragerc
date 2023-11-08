@@ -1,0 +1,8 @@
+[run]
+source = authentication/, blogapi/, blogs/
+omit =
+    venv
+    */migrations/*
+    *apps.py
+    *management/commands/*
+    *tests.py
